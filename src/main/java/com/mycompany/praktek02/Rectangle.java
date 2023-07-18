@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.praktek02;
-
-/**
- *
- * @author User
- */
 public class Rectangle {
     double panjang;
     double lebar;
+
+    public Rectangle() {
+        panjang=5;
+        lebar=2;
+    }
     
     void cetakInfo(){
         System.out.println("=================");
